@@ -8,7 +8,7 @@ import { buildBarSeries, getGenderChartData, getPlatformChartData } from './help
 
 import './styles.css';
 
-const url = "http://localhost:8080";
+const url = 'https://sds1-jordan.herokuapp.com';
 
 type PieChartData = {
     labels: string[],

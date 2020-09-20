@@ -7,7 +7,7 @@ import { formatDate } from './helpers';
 import Pagination from './Pagination';
 import Filters from '../../components/Filters';
 
-const url = "http://localhost:8080";
+const url = 'https://sds1-jordan.herokuapp.com';
 
 const Records = () => {
     const [RecordsResponse, setRecordsResponse] = useState<RecordsResponse>();
